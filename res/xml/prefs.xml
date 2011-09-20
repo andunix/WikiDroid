@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/settings_wiki_preferences">
+        <EditTextPreference
+                android:key="wiki_url"
+				android:singleLine="true"
+                android:title="@string/title_wiki_url_preference"
+                android:summary="@string/summary_wiki_url_preference"
+                android:dialogTitle="@string/dialog_title_wiki_url_preference" />
+        <EditTextPreference
+                android:key="wiki_user"
+				android:singleLine="true"
+                android:title="@string/title_wiki_user_preference"
+                android:summary="@string/summary_wiki_user_preference"
+                android:dialogTitle="@string/dialog_title_wiki_user_preference" />
+        <EditTextPreference
+                android:key="wiki_passwd"
+				android:singleLine="true"
+				android:password="true"
+                android:title="@string/title_wiki_passwd_preference"
+                android:summary="@string/summary_wiki_passwd_preference"
+                android:dialogTitle="@string/dialog_title_wiki_passwd_preference" />
+        <ListPreference
+                android:key="wiki_type"
+                android:title="@string/title_wiki_type_preference"
+                android:summary="@string/summary_wiki_type_preference"
+                android:entries="@array/entries_wiki_type_preference"
+                android:entryValues="@array/entryvalues_wiki_type_preference"
+                android:dialogTitle="@string/dialog_title_wiki_type_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

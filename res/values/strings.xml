@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App -->
+    <string name="app_name">WikiDroid</string>
+    <!-- Menu -->
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_sync">Sync</string>
+    <!-- edit.xml -->
+    <string name="edit_page">Edit Page</string>
+    <!-- list.xml -->
+    <string name="no_pages">No Pages Yet</string>
+    <!-- prefs.xml -->
+    <string name="settings_wiki_preferences">Wiki</string>
+    <string name="title_wiki_url_preference">URL</string>
+    <string name="summary_wiki_url_preference">Wiki Base URL</string>
+    <string name="dialog_title_wiki_url_preference">Wiki Base URL</string>
+    <string name="title_wiki_user_preference">User</string>
+    <string name="summary_wiki_user_preference">Wiki Login User</string>
+    <string name="dialog_title_wiki_user_preference">Wiki Login User</string>
+    <string name="title_wiki_passwd_preference">Password</string>
+    <string name="summary_wiki_passwd_preference">Wiki Login Password</string>
+    <string name="dialog_title_wiki_passwd_preference">Wiki Login Password</string>
+    <string name="title_wiki_type_preference">Type</string>
+    <string name="summary_wiki_type_preference">Wiki Type</string>
+    <string name="dialog_title_wiki_type_preference">Wiki Type</string>
+    <string-array name="entries_wiki_type_preference">
+        <item>DokuWiki</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="entryvalues_wiki_type_preference">
+        <item>dokuwiki</item>
+        <item>other</item>
+    </string-array>
+</resources>
